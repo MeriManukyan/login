@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="login.js"> </script>
+    <script src="register.js"></script>
+    <script src="valid.js"></script>
+</head>
+<body>
+<input type="button" onclick="login()" value="Login" onload="login()">
+<input type="button" onclick="register()" value="Register">
+<form METHOD="post" action="/login">
+    <div id="login"></div>
+</form>
+<form METHOD="post" action="/registrationPage">
+    <div id="register"></div>
+</form>
+<div id="validate"></div>
+</body>
+</html>
